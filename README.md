@@ -74,3 +74,4 @@ Chủ đề: Xây dựng ứng dụng điều khiển máy tính từ xa - Remot
 	+ Xem màn hình hoạt động máy remote theo thời gian thực. (100%)
 	+ Tự động chụp và lưu ảnh màn hình khi 1 tác vụ được bật theo lịch.(100%)
  	+ Đang cập nhật thêm....
+# Lap_Trinh_Mang_PTIT_2023
