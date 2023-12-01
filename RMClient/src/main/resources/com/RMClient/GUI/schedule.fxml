@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CEEAED;" stylesheets="@../org/kordamp/bootstrapfx/boostrapfx.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RMClient.GUI.ScheduleController">
+   <children>
+      <VBox alignment="CENTER" layoutX="369.0" layoutY="52.0" prefHeight="296.0" prefWidth="178.0" spacing="20">
+         <children>
+            <Button mnemonicParsing="false" onAction="#scheduleShutdown" prefHeight="25.0" prefWidth="215.0" stylesheets="@../org/kordamp/bootstrapfx/boostrapfx.css" text="Hẹn giờ tắt máy">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-info" />
+               </styleClass></Button>
+            <Button mnemonicParsing="false" onAction="#scheduleReboot" prefHeight="25.0" prefWidth="216.0" text="Hẹn giờ khởi động">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-info" />
+               </styleClass></Button>
+            <Button mnemonicParsing="false" onAction="#cancelSchedule" prefHeight="25.0" prefWidth="197.0" text="Hủy hẹn giờ">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-info" />
+               </styleClass></Button>
+            <Button mnemonicParsing="false" onAction="#scheduleOpenApp" prefHeight="25.0" prefWidth="222.0" text="Đặt lịch tác vụ">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-info" />
+               </styleClass></Button>
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="23.0" prefWidth="260.0" text="Quay lại">
+               <styleClass>
+                  <String fx:value="btn-danger" />
+                  <String fx:value="btn" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <ImageView fitHeight="324.0" fitWidth="343.0" layoutX="24.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/bg.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
